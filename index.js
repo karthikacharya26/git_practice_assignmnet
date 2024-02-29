@@ -1,11 +1,11 @@
 var num = 5;
 
-var flag = false;
+var flag = true;
 
-for(var i=1; i<=num; i++){
+for(var i=2; i<num; i++){
     if(num%i===0){
         flag = false;
-    }
+    } 
 };
 
 if(flag){
